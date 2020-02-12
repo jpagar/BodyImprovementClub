@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    background: url(/Login/login-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+.grid-login{
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.grid-login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(116, 110, 96, 0.7);
+}
+.grid-login-header{
+    color: rgb(245, 245, 245);
+    text-align: center;
+    margin-top: 5px;
+}
+.login-form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 70%;
+
+}
+.login-form-description{
+    color: rgb(250, 250, 250);
+    width: 100%;
+    /* text-align: center; */
+    margin: 12px 23px;
+    font-weight: 600;
+}
+.spacing{
+    text-align: center;
+    width: 100%;
+}
+.login-form-input{
+    /* width: 100%; */
+    padding: 7px 7px 8px;
+    margin-bottom: 13px;
+    width: 85%;
+    border: 1.5px solid #c5cbd5;
+}
+.button{
+    width: 70%;
+    height: 30px;
+    margin: 10px 7px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.register{
+    color: white;
+    margin: 10px;
+}
+.register > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+}
+.register > a:hover{
+    color: rgb(72, 216, 209);
+    text-decoration: underline rgb(72, 216, 209);
+}
+
+/* @media(max-width: 1040px){
+    html{
+        background-size: 1500px;
+    }
+} */
